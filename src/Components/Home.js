@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div>
         <span style={{ marginRight: 40, marginLeft: 150 }}><Link to ='./tourism'> <img src="https://th.bing.com/th/id/OIP.0vY0p7BzDiXhWMOIUbssswHaEo?pid=ImgDet&rs=1" alt=""/></Link></span>
-        <span style={{ top: 50, flex: 1, flexDirection: 'column', marginRight: 40 }} ><Link to ='./category/fitness' ><img src='https://th.bing.com/th/id/OIP.qaNU068Jj4sLvT-YIen9zgHaE8?pid=ImgDet&rs=1' alt='' width={200} height={200} /></Link></span>
+        <span style={{ top: 50, flex: 1, flexDirection: 'column', marginRight: 40 }} ><Link to ='./fitness' ><img src='https://th.bing.com/th/id/OIP.qaNU068Jj4sLvT-YIen9zgHaE8?pid=ImgDet&rs=1' alt='' width={200} height={200} /></Link></span>
         <span><Link to ='./technology'><img src='https://th.bing.com/th/id/OIP.LcvjG1FTHCPraYhwE086jgHaDt?pid=ImgDet&rs=1' alt='' width={200} height={200} /></Link></span>
         <h1 style={{ marginLeft: 100, marginTop: 20 }}>The Latest</h1>< hr style={{ width: 180, height: 3, marginLeft: 100, color: 'red' }} />
         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
